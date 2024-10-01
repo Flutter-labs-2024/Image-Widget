@@ -8,9 +8,10 @@ void main()=>runApp(
         backgroundColor: Colors.blue,
       ),
       body: Center(
-        child: Image.network('https://flutterx.com/thumbnails/artifact-1922.png',
-        height: 300,
-        width: 300,
+        child: Image.asset("images/flutter.png"
+        ,
+        height: 200,
+        width: 200,
         ),
       ),
     ),
